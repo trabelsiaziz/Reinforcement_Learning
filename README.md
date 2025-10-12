@@ -4,7 +4,10 @@ A reinforcement learning project that trains an AI agent to play Atari Pong usin
 
 ## 🎮 Demo
 
-https://github.com/trabelsiaziz/Reinforcement_Learning/assets/videos/rl-video-episode-0.mp4
+<video width="640" height="480" controls>
+  <source src="videos/rl-video-episode-0.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## 📋 Project Overview
 
