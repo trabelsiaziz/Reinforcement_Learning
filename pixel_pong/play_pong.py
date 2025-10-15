@@ -47,10 +47,10 @@ random_agent = Agent().to(device)  # for random play
 
 # this is for video recording
 os.makedirs("videos", exist_ok=True)
-env = gym.make("ALE/Pong-v5", render_mode="rgb_array") 
-env = RecordVideo(env, video_folder="videos", episode_trigger=lambda x: True)
+# env = gym.make("ALE/Pong-v5", render_mode="rgb_array") 
+# env = RecordVideo(env, video_folder="videos", episode_trigger=lambda x: True)
 
-# env = gym.make("ALE/Pong-v5", render_mode="human")  
+env = gym.make("ALE/Pong-v5", render_mode="human")  
 obs, info = env.reset()
 
 f_prev = torch.tensor(0, device=device)
